@@ -1,28 +1,36 @@
 module.exports = {
-  title: `Bee starter`,
-  description: `Blog posted about ...`,
-  author: `[Your Name]`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  title: `zeebeck.io`,
+  description: `Blog posted about zeebeck's Online-Judge archive`,
+  author: `[Jihun Kim]`,
+  introduction: `Online Judge 풀이 전용 아카이브`,
+  siteUrl: `https://zeebeck.github.io`, // Your blog site url
   social: {
-    twitter: ``, // Your Twitter account
-    github: ``, // Your GitHub account
+    velog: ``, // Your Twitter account
+    github: `zeebeck`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
     instagram: ``, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
-  keywords: [`blog`],
+  keywords: [`blog`,
+            `gatsby`,
+            `application`,
+            `react`,
+            `zeebeck`,
+            `jihunkim101112`,
+            `FontEnd`,
+            `Developer`,
+            ],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: 'JaeYeopHan/gatsby-starter-bee', // Your repository for archive comment
+    utterances: 'zeebeck/zeebeck.github.io', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: 'zeebeck',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2

@@ -5,7 +5,7 @@ module.exports = {
   introduction: `Online Judge 풀이 전용 아카이브`,
   siteUrl: `https://zeebeck.github.io`, // Your blog site url
   social: {
-    velog: ``, // Your Twitter account
+    twitter: ``, // Your Twitter account
     github: `zeebeck`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
@@ -27,7 +27,7 @@ module.exports = {
     utterances: 'zeebeck/zeebeck.github.io', // Your repository for archive comment
   },
   configs: {
-    countOfInitialPost: 10, // Config your initial count of post
+    countOfInitialPost: 8, // Config your initial count of post
   },
   sponsor: {
     buyMeACoffeeId: 'zeebeck',

@@ -5,7 +5,7 @@ module.exports = {
   introduction: `Online Judge 풀이 전용 아카이브`,
   siteUrl: `https://zeebeck.github.io`, // Your blog site url
   social: {
-    twitter: ``, // Your Twitter account
+    velog: `zeebeck`, // Your Velog account
     github: `zeebeck`, // Your GitHub account
     medium: ``, // Your Medium account
     facebook: ``, // Your Facebook account
@@ -13,15 +13,7 @@ module.exports = {
     instagram: ``, // Your Instagram account
   },
   icon: `content/assets/felog.png`, // Add your favicon
-  keywords: [`blog`,
-            `gatsby`,
-            `application`,
-            `react`,
-            `zeebeck`,
-            `jihunkim101112`,
-            `FontEnd`,
-            `Developer`,
-            ],
+  keywords: [`blog`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
     utterances: 'zeebeck/zeebeck.github.io', // Your repository for archive comment

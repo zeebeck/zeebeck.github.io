@@ -20,7 +20,7 @@ export function Head({ description, lang, meta, keywords, title }) {
             meta={[
               {
                 name: `google-site-verification`,
-                content: `1-Oue5CCjVpiCpVLHcW2844FEK6-y8pStWHdFvLH4NI`,
+                content: `dd9zDtg3BReXNP6JW4JhsPq6HGa_FIWQsEUn2_NJMy0`,
               },
               {
                 name: `description`,

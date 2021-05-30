@@ -71,12 +71,12 @@ function solution(s) {
 ---
 ## 참고
 
-https://programmers.co.kr/learn/courses/30/lessons/12903
+* https://programmers.co.kr/learn/courses/30/lessons/12903
 
-https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseInt
+* https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/parseInt
 
-https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/substr
+* https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/substr
 
-https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/substring
+* https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/substring
 
 ---

@@ -1,8 +1,7 @@
 ---
-title: '프로그래머스-Level-1-가운데 글자 가져오기'
+title: '[프로그래머스]Level-1. 가운데 글자 가져오기'
 date: 2021-05-30 17:05:30
 category: 'programmers'
-thumbnail: { thumbnailSrc }
 draft: false
 ---
 
@@ -10,13 +9,12 @@ draft: false
 
 * 단어 s의 가운데 글자를 반환하는 함수, solution을 만들어 보세요. 단어의 길이가 짝수라면 가운데 두글자를 반환하면 됩니다.
 
----
+
 ## **제한 사항**
 
 * s는 길이가 1 이상, 100이하인 스트링입니다.
 
   
----
 
 
 ## 입출력 예
@@ -28,7 +26,6 @@ draft: false
 
 
 
----
 
 ## 나의 풀이
 
@@ -49,7 +46,6 @@ function solution(s) {
 ```
 
 
----
 
 
 ## 알게 된 것
@@ -85,4 +81,5 @@ https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/pa
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/substr
 
 https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/substring
+
 ---

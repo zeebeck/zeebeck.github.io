@@ -55,12 +55,12 @@ function solution(s) {
 2. 알고리즘 문제 풀이에서도 변수명에 신경을 써야하는지에 대한 고민을 하였지만 풀이에만 촛점을 맞춰 간략하게 작성 후 진행하였다.  :)
 3. 가장 많은 **좋아요**를 받은 풀이인데, ***어떻게 하면 저렇게 처음부터 한줄로 코딩을 할 수 있을까??***란 충격을 받았다. 
 
-```javascript
-# 다른 사람 풀이
+  ```javascript
+  # 다른 사람 풀이
 
-function solution(s) {
-    return s.substr(Math.ceil(s.length / 2) - 1, s.length % 2 === 0 ? 2 : 1);
-}
+  function solution(s) {
+      return s.substr(Math.ceil(s.length / 2) - 1, s.length % 2 === 0 ? 2 : 1);
+  }
 
 ```
 

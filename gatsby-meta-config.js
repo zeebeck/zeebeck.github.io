@@ -1,5 +1,5 @@
 module.exports = {
-  title: `zeebeck.io`,
+  title: `zeebeck's archive`,
   description: `Blog posted about zeebeck's Online-Judge archive`,
   author: `[Jihun Kim]`,
   introduction: `Online Judge 풀이 전용 아카이브`,

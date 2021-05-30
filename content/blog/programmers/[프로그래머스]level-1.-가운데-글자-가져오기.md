@@ -1,8 +1,0 @@
----
-title: [프로그래머스]Level-1. 가운데 글자 가져오기
-date: 2021-05-30 17:05:30
-category: programmers
-thumbnail: { thumbnailSrc }
-draft: false
----
-

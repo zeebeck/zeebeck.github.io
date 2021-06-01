@@ -1,5 +1,5 @@
 ---
-title: '[프로그래머스]Level-1. 서울에서 감서방 찾기'
+title: '[프로그래머스]Level-1. 서울에서 김서방 찾기'
 date: 2021-06-02 08:15:30
 category: 'programmers'
 draft: false

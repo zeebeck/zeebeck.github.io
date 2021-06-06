@@ -39,6 +39,7 @@ function solution(n) {
 
 ## 참고
 
+* https://programmers.co.kr/learn/courses/30/lessons/12933
 * https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/split
 * https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 * https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse

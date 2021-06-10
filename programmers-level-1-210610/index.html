@@ -103,7 +103,7 @@
 <ol>
 <li>같은 배열 안에 있는 요소들끼리의 크기를 어떻게 비교할 수 있을지에 대해 많은 시간동안 고민하였고, 결국 검색을 통해 Math.min()함수를 알게되어 해당 함수로 진행하였다.</li>
 <li>
-<p>하지만 최종 풀이에 있는 spread 문법 역시 이때는 모르고 있었기 때문에 아래의 코드가 최초의 코드였으며, 왜 내가 원하는 값으로 리턴되지 않는 지에 대해 굉장히 오랫동안 고민하였다.</p>
+<p>하지만 최종 풀이에 있는 spread 문법 역시 이때는 모르고 있었기 때문에 아래의 코드가 최초의 코드였으며, 왜 내가 원하는 값으로 리턴되지 않는 지에 대해 굉장히 오랫동안 고민하였다.🤪</p>
 <div class="gatsby-highlight" data-language="javascript"><pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">solution</span><span class="token punctuation">(</span><span class="token parameter">arr</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
  <span class="token keyword">let</span> answer <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
  <span class="token keyword">if</span> <span class="token punctuation">(</span>arr<span class="token punctuation">.</span>length <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
@@ -116,7 +116,7 @@
 <span class="token punctuation">}</span>
 
 <span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-<span class="token function">solution</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// [1, 2, 3]</span></code></pre></div>
+<span class="token function">solution</span><span class="token punctuation">(</span>arr<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// [1, 2, 3] 😱😱😱</span></code></pre></div>
 </li>
 <li>
 <p>자바스크립트의 built-in 함수인 Math.min은 인수로 받은 숫자 중 가장 작은 수를 반환하는데, 아무런 조작 없이 배열을 ‘있는 그대로’ 해당 함수에 넘겨버리면 원하는 동작이 되지 않는다. <strong>왜냐하면 Math.min 함수는 배열이 아닌 숫자 목록을 인수로 받기 때문이었다.</strong> 😭😭😭 </p>

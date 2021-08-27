@@ -101,11 +101,13 @@ console.log(result);
 
 ## 알게 된 것
 
-1. 이전에 리액트 튜토리얼 사이트에서 틱텍토 게임 만들기 소스코드에서 fill()과 repeat() 메서드를 알게 되었고, 그 중 repeat 메서드를 통해 문제를 해결하였다. 
+1. 이전에 리액트 튜토리얼 사이트에서 틱택토 게임 만들기 소스코드에서 fill()과 repeat() 메서드를 알게 되었고, 그 중 repeat 메서드를 통해 문제를 해결하였다. 
 2. 다른 사람 풀이를 보니 간단한 문제다 보니 다들 비슷비슷하게 풀이한 거 같다.
 3. javascript에서 표준입출력을 하기 위해 node.js를 통한 커맨드라인에서 입출력처리 방식을 알게 되었다.
 
+
 ## 참고
+
 * https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 ---
   

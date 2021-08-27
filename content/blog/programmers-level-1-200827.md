@@ -106,7 +106,6 @@ console.log(result);
 3. javascript에서 표준입출력을 하기 위해 node.js를 통한 커맨드라인에서 입출력처리 방식을 알게 되었다.
 
 ## 참고
-
 * https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/repeat
 ---
   

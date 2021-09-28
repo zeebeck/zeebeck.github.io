@@ -40,10 +40,8 @@ export const Bio = () => (
                   {social.medium && (
                     <a href={`https://medium.com/${social.medium}`}>Medium</a>
                   )}
-                  {social.velog && (
-                    <a href={`https://velog.io/@${social.velog}`}>
-                      Velog
-                    </a>
+                  {social.tistory && (
+                    <a href={`https://zeebeck.tistory.com`}>Tistory</a>
                   )}
                   {social.facebook && (
                     <a href={`https://www.facebook.com/${social.facebook}`}>
@@ -79,7 +77,7 @@ const bioQuery = graphql`
         author
         introduction
         social {
-          velog
+          tistory
           github
           medium
           facebook

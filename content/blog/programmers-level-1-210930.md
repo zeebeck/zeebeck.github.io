@@ -41,16 +41,6 @@ function solution(participant, completion) {
 }
 ```
 
-## 다른 사람의 풀이
-
-```javascript
-var solution = (_, $) =>
-  _.find(
-    _ => !$[_]--,
-    $.map(_ => ($[_] = ($[_] | 0) + 1))
-  )
-```
-
 ## 알게 된 것
 
 1. sort() 메서드를 통해 participant, completion 배열 변수 값을 오름 차순으로 정리한 뒤 participant과 completion의 요소 값이 다를 경우 바로 해당 값을 리턴하여 문제 풀이를 하였다.

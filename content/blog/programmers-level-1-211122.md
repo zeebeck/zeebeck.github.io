@@ -1,6 +1,6 @@
 ---
 title: '[프로그래머스]Level-1. 나머지가 1이 되는 수 찾기'
-date: 2021-11-11 23:35:30
+date: 2021-11-22 23:35:30
 category: 'programmers'
 draft: false
 ---
@@ -15,10 +15,10 @@ draft: false
 
 ## 입출력 예
 
-| n          | result |
-| ------------- | ------ |
-| 10    | 3      |
-| 12    | 11     |
+| n   | result |
+| --- | ------ |
+| 10  | 3      |
+| 12  | 11     |
 
 입출력 예 설명
 입출력 예 #1
@@ -31,13 +31,13 @@ draft: false
 
 ```javascript
 function solution(n) {
-    let answer = 0;
-    for (let i = n; i > 1; i--) {
-        if (n % i === 1) {
-            answer = i
-        }
+  let answer = 0
+  for (let i = n; i > 1; i--) {
+    if (n % i === 1) {
+      answer = i
     }
-    return answer;
+  }
+  return answer
 }
 ```
 
@@ -47,11 +47,11 @@ function solution(n) {
 
    ```javascript
     # 다른 사람 풀이
-    function solution(n, x = 1) {    
+    function solution(n, x = 1) {
     while (x++) {
         if (n % x === 1) {
             return x;
         }
-      }    
+      }
     }
-    ```
+   ```

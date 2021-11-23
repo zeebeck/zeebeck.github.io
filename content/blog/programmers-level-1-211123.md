@@ -1,6 +1,6 @@
 ---
-title: '[프로그래머스]Level-1. 나머지가 1이 되는 수 찾기'
-date: 2021-11-22 23:35:30
+title: '[프로그래머스]Level-1. 없는 숫자 더하기'
+date: 2021-11-23 23:40:12
 category: 'programmers'
 draft: false
 ---

@@ -1,6 +1,6 @@
 ---
 title: '[프로그래머스]Level-1. 평균 구하기'
-date: 2021-06-03 23:15:30
+date: 2021-11-29 23:55:30
 category: 'programmers'
 draft: false
 ---
@@ -11,9 +11,9 @@ draft: false
 
 ## 제한 사항
 
-* arr은 길이 1 이상, 100 이하인 배열입니다.
+- arr은 길이 1 이상, 100 이하인 배열입니다.
 
-- arr의 원소는  -10,000 이상 10,000 이하인 정수입니다.
+- arr의 원소는 -10,000 이상 10,000 이하인 정수입니다.
 
 ## 입출력 예
 
@@ -55,12 +55,9 @@ function solution(arr) {
 
 2. map, reduce와 같은 고차 함수를 많이 사용해 봐야겠다.
 
-   
-
 ## 참고
 
-* https://programmers.co.kr/learn/courses/30/lessons/12944
-* https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+- <https://programmers.co.kr/learn/courses/30/lessons/12944>
+- <https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce>
 
 ---
-

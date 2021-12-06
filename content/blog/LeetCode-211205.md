@@ -118,6 +118,28 @@ var isPalindrome = function(x) {
 }
 ```
 
+## 다른 사람의 풀이 4
+
+```javascript
+var isPalindrome = function(x) {
+  const isNegative = x < 0 ? true : false
+
+  if (isNegative) {
+    return false
+  }
+
+  const temp = x
+  let reversed = 0
+
+  while (x > 0) {
+    reversed = reversed * 10 + (x % 10)
+    x = parseInt(x / 10)
+  }
+
+  return reversed == temp
+}
+```
+
 ## 알게 된 것
 
 1. 매개 변수로 전달되는 x를 뒤집에서 같으면 true를 틀리면 false를 출력하는 문제였고, 변수 reverseX 생성 후 x의 타입이 숫자형이었기 때문에 문자형으로 변경 후 split()을 통해 배열 값으로 각 요소를 쪼개고 reverse()를 통해 뒤집고 join()을 통해 문자열로 합쳐서 x와 비교 후 문제를 해결하였다.

@@ -8,6 +8,7 @@
     "url": "https://github.com/zeebeck/zeebeck.github.io/issues"
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
     "gatsby": "^2.2.8",
     "gatsby-image": "^2.0.34",
     "gatsby-plugin-feed": "^2.1.0",
